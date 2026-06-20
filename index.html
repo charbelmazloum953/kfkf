@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Beginner HTML Example</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      background-color: #f4f4f4;
+    }
+
+    .container {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      max-width: 600px;
+      margin: auto;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+      color: darkblue;
+    }
+
+    h2 {
+      color: darkgreen;
+    }
+
+    h3 {
+      color: darkred;
+    }
+
+    h4 {
+      color: purple;
+    }
+
+    input, select, button {
+      margin-top: 10px;
+      padding: 8px;
+      width: 100%;
+    }
+
+    .checkbox-group {
+      margin-top: 10px;
+    }
+
+    button {
+      background-color: blue;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: darkblue;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+
+    <!-- Headings -->
+    <h1>This is H1 Heading</h1>
+    <h2>This is H2 Heading</h2>
+    <h3>This is H3 Heading</h3>
+    <h4>This is H4 Heading</h4>
+
+    <!-- Input -->
+    <label for="name">Enter your name:</label>
+    <input type="text" id="name" placeholder="Type here..." />
+
+    <!-- Checkbox -->
+    <div class="checkbox-group">
+      <label>
+        <input type="checkbox" />
+        I agree to the terms
+      </label>
+    </div>
+
+    <!-- Dropdown -->
+    <label for="country">Choose a country:</label>
+    <select id="country">
+      <option>USA</option>
+      <option>Canada</option>
+      <option>Lebanon</option>
+      <option>UK</option>
+    </select>
+
+    <!-- Button -->
+    <button onclick="showMessage()">Click Me</button>
+
+  </div>
+
+  <script>
+    function showMessage() {
+      alert("Hello! Your button works!");
+    }
+  </script>
+
+</body>
+</html>
