@@ -5,7 +5,7 @@ from tkinter import messagebox
 
 # Create window
 root = tk.Tk()
-root.title("Simple Python Form")
+root.title("Simple Pkdhfhjnjgfnython Form")
 root.geometry("400x850")
 
 # Input
